@@ -1,13 +1,33 @@
 html {
-  background-color: lightsteelblue;
   height: 100%;
 }
+
 header {
   min-height: 100px;
+  width: 100%;
   top: 0;
+  left: 0;
+  position: fixed;
   background-color: steelblue;
 }
+#navBar {
+  display: flex;
+  float: right;
+}
+
+#home {
+  display: flex;
+  padding-top: 100px;
+}
+img {
+  max-height: 250px;
+  max-width: 25%;
+}
+
 footer {
   position: fixed;
   bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: steelblue;
 }
