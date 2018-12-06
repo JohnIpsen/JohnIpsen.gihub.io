@@ -14,18 +14,17 @@ header {
   position: fixed;
   background-color: steelblue;
 }
-#homeTitle {
-  width:100%;
+#leftTitle {
+  margin-left: 5%;
   color: White;
-  text-align: center
 }
 #navBar {
   display: flex;
   float: right;
 }
 
-/* Home Page */
-#home {
+/* About Page */
+#about {
   height: 100%;
   display: flex;
   padding-top: 100px;
@@ -33,43 +32,27 @@ header {
 img {
   width: 100%
 }
-#homeLeft {
+#aboutLeft {
   width: 20%
 }
 h4 {
   text-decoration: underline;
 }
-#homeRight {
+#aboutRight {
   width: 100%;
   height: 100%;
   background-color: lightsteelblue;
   margin-left: 1%;
   margin-bottom: 1%;
 }
-.homeMenu{
-  height:25%
-}
-.homeMenu:hover {
-  background-color: white;
-  border: 2px solid steelblue
-}
 h2 {
   text-align: center;
-  width: 100%;
-  color: black;
-}
-a {
-  text-decoration: none;
+  background-color: white;
+  width: 34%;
+  margin: 5% 33% 5% 33%;
 }
 p {
-  width: 100%;
-  text-align: center;
-  color: lightsteelblue
-}
-
-/* About Page */
-#about {
-  padding-top: 100px;
+  text-align:center;
 }
 
 /* Footer */
