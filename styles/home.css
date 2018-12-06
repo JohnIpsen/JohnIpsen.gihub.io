@@ -18,12 +18,6 @@ h1 {
   margin-left: 5%;
   color: White;
 }
-h2 {
-  text-align: center;
-  background-color: white;
-  width: 34%;
-  margin: 5% 33% 5% 33%;
-}
 #navBar {
   display: flex;
   float: right;
@@ -50,6 +44,15 @@ h4 {
   background-color: lightsteelblue;
   margin-left: 1%;
   margin-bottom: 1%;
+}
+h2 {
+  text-align: center;
+  background-color: white;
+  width: 34%;
+  margin: 5% 33% 5% 33%;
+}
+p {
+  text-align:center;
 }
 
 /* About Page */
