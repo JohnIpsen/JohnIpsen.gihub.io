@@ -5,6 +5,7 @@ body {
   height: 100%;
 }
 
+/* Header */
 header {
   min-height: 100px;
   width: 100%;
@@ -28,6 +29,7 @@ h2 {
   float: right;
 }
 
+/* Home Page */
 #home {
   height: 100%;
   display: flex;
@@ -45,10 +47,12 @@ img {
   margin-bottom: 1%;
 }
 
+/* About Page */
 #about {
   padding-top: 100px;
 }
 
+/* Footer */
 footer {
   position: fixed;
   bottom: 0;
