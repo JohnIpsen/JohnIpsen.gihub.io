@@ -15,9 +15,9 @@ header {
   background-color: steelblue;
 }
 #homeTitle {
-  width:100%;
+  width: 100%;
   color: White;
-  text-align: center
+  text-align: center;
 }
 #navBar {
   display: flex;
@@ -31,10 +31,10 @@ header {
   padding-top: 100px;
 }
 img {
-  width: 100%
+  width: 100%;
 }
 #homeLeft {
-  width: 20%
+  width: 20%;
 }
 h4 {
   text-decoration: underline;
@@ -46,17 +46,18 @@ h4 {
   margin-left: 1%;
   margin-bottom: 1%;
 }
-.homeMenu{
-  height:25%
+.homeMenu {
+  height: 25%;
 }
 .homeMenu:hover {
   background-color: white;
-  border: 2px solid steelblue
+  border: 2px solid steelblue;
 }
 h2 {
   text-align: center;
   width: 100%;
   color: black;
+  margin-top: 0%;
 }
 .homeAhref {
   text-decoration: none;
@@ -64,7 +65,7 @@ h2 {
 p {
   width: 100%;
   text-align: center;
-  color: lightsteelblue
+  color: lightsteelblue;
 }
 
 /* About Page */
