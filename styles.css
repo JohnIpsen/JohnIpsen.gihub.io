@@ -36,8 +36,13 @@ h2 {
   padding-top: 100px;
 }
 img {
-  max-height: 250px;
-  max-width: 25%;
+  width: 100%
+}
+#homeLeft {
+  width: 20%
+}
+h4 {
+  text-decoration: underline;
 }
 #homeRight {
   width: 100%;
