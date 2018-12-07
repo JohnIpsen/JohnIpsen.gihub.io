@@ -48,21 +48,22 @@ h4 {
 }
 .homeMenu {
   height: 25%;
+  border: 2px solid lightsteelblue;
 }
 .homeMenu:hover {
   background-color: white;
   border: 2px solid steelblue;
 }
-h2 {
+.homeLink {
+  text-decoration: none;
+}
+.btnHeader {
   text-align: center;
   width: 100%;
   color: black;
   margin-top: 0%;
 }
-.homeAhref {
-  text-decoration: none;
-}
-p {
+.btnDescription {
   width: 100%;
   text-align: center;
   color: lightsteelblue;
