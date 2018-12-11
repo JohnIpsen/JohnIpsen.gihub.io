@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+  }
+
+  /* Header */
+header {
+    min-height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: steelblue;
+  }
+  #homeTitle {
+    width: 100%;
+    color: White;
+    text-align: center;
+  }
+  #leftTitle {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    color: White;
+  }
+  #navBar {
+    display: flex;
+    float: right;
+    width: 45%
+  }
+  #navBtn {
+    width: 25%;
+    padding: 0 0.5%;
+  }
+  button {
+    border-radius: 8px;
+    background-color: white;
+    width: 100%;
+    border: none;
+    height: 100%;
+  }
+  button:hover {
+    background-color: lightsteelblue;
+  }
+
+  /* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: steelblue;
+  }
