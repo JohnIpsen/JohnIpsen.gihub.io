@@ -1,6 +1,6 @@
 /* About Page */
 #about {
-  height: 100%;
+  min-height: 100%;
   display: flex;
   padding-top: 100px;
 }
@@ -10,15 +10,16 @@ img {
 }
 #aboutLeft {
   width: 20%;
+  position: fixed;
 }
 h4 {
   text-decoration: underline;
 }
 #aboutRight {
-  width: 100%;
+  width: 80%;
   height: 100%;
   background-color: lightsteelblue;
-  margin-left: 1%;
+  margin-left: 21%;
   margin-bottom: 1%;
   border-radius: 8px;
 }
