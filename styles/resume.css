@@ -61,3 +61,22 @@ h3 {
   padding-left: 10%;
   margin-right: 3%;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+.skillBox {
+  width: 33%;
+}
+.skillLogo:hover + .skillLogoInfo {
+  visibility: visible;
+}
+.skillLogo {
+  width: 20%;
+}
+.skillLogoInfo {
+  text-align: center;
+  visibility: hidden;
+}
