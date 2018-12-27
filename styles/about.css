@@ -4,10 +4,6 @@
   display: flex;
   padding-top: 100px;
 }
-img {
-  width: 100%;
-  border-radius: 8px;
-}
 #aboutLeft {
   width: 20%;
   position: fixed;
@@ -22,6 +18,15 @@ h4 {
   margin-left: 21%;
   margin-bottom: 1%;
   border-radius: 8px;
+}
+.aboutBox {
+  display: flex;
+}
+.aboutImg {
+  border-radius: 8px;
+  margin: 0 2%;
+  width: 25%;
+  height: 25%;
 }
 h2 {
   text-align: center;
