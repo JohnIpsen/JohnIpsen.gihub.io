@@ -35,31 +35,41 @@ h3 {
   height: 10%;
   background-color: steelblue;
 }
+h4 {
+  font-size: 17px;
+  font-family: Georgia;
+}
+p {
+  font-size: 16px;
+  font-family: Georgia;
+}
 .edu {
   width: 100%;
   text-align: left;
-  padding-left: 10%;
+  margin-right: 2%;
 }
 .cert {
   padding-left: 30%;
 }
-
+.vertCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  width: 27%;
+}
 #uiImg {
-  width: 4%;
-  height: 10%;
-  padding-left: 13%;
-  margin-right: 3%;
+  width: 20%;
+  height: 25%;
+  padding-left: 3%;
 }
 #blImg {
-  width: 10%;
-  height: 10%;
-  padding-left: 10%;
+  width: 40%;
+  height: 40%;
 }
 #fgImg {
-  width: 7%;
-  height: 10%;
-  padding-left: 10%;
-  margin-right: 3%;
+  width: 30%;
+  height: 30%;
 }
 
 .skills {

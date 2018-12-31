@@ -19,14 +19,31 @@ h4 {
   margin-bottom: 1%;
   border-radius: 8px;
 }
+.aboutP {
+  margin: 0 2%;
+}
 .aboutBox {
   display: flex;
+  margin-bottom: 3%;
+}
+.aboutBoxChildP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 70%;
+  margin: 0 2%;
+}
+.aboutBoxChildImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2%;
+  width: 30%;
 }
 .aboutImg {
   border-radius: 8px;
-  margin: 0 2%;
-  width: 25%;
-  height: 25%;
+  width: 100%;
 }
 h2 {
   text-align: center;
@@ -37,5 +54,6 @@ h2 {
 }
 p {
   text-align: center;
-  margin: 1% 5%;
+  font-size: 18px;
+  font-family: Georgia;
 }
