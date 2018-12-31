@@ -80,12 +80,34 @@ p {
 .skillBox {
   width: 33%;
 }
-.skillLogo:hover + .skillLogoInfo {
+.skillLogo:hover + .skillInfo {
   visibility: visible;
 }
 .skillLogo {
-  width: 20%;
+  width: 15%;
+  display: block;
+  margin: 0 auto;
 }
-.skillLogoInfo {
+.skillInfo {
+  display: flex;
   visibility: hidden;
+}
+.skillLogoBr {
+  width: auto;
+  text-align: center;
+}
+.skillAdvanced {
+  width: auto;
+  color: red;
+  text-align: right;
+}
+.skillIntermediate {
+  width: auto;
+  color: yellow;
+  text-align: right;
+}
+.skillNovice {
+  width: auto;
+  color: green;
+  text-align: right;
 }
