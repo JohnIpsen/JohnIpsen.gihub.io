@@ -91,23 +91,20 @@ p {
 .skillInfo {
   display: flex;
   visibility: hidden;
+  justify-content: center;
 }
 .skillLogoBr {
   width: auto;
-  text-align: center;
 }
 .skillAdvanced {
   width: auto;
   color: red;
-  text-align: right;
 }
 .skillIntermediate {
   width: auto;
   color: yellow;
-  text-align: right;
 }
 .skillNovice {
   width: auto;
   color: green;
-  text-align: right;
 }
