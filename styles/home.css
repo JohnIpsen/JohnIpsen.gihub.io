@@ -46,3 +46,25 @@ h4 {
   color: lightsteelblue;
   font-size: xx-large;
 }
+
+@media only screen and (max-device-width: 750px) {
+  #leftTitle {
+    text-align: center;
+  }
+  #home {
+    flex-direction: column;
+  }
+  #homeLeft {
+    width: 70%;
+    position: relative;
+    align-self: center;
+  }
+  #homeDownloads {
+    display: none;
+  }
+  #homeRight {
+    width: 100%;
+    margin: 1% 1% 1% 1%;
+    align-self: center;
+  }
+}
