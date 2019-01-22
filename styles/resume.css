@@ -114,9 +114,9 @@ p {
   #resumeLeft {
     display: none;
   }
-}
-#resumeRight {
-  width: 100%;
-  margin: 1% 1% 1% 1%;
-  align-self: center;
+  #resumeRight {
+    width: 100%;
+    margin: 1% 1% 1% 1%;
+    align-self: center;
+  }
 }

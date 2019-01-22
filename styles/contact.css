@@ -40,10 +40,10 @@ p {
   #contactLeft {
     display: none;
   }
-}
-#contactRight {
-  width: 100%;
-  min-height: calc(100vh - 100px);
-  margin: 1% 1% 1% 1%;
-  align-self: center;
+  #contactRight {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    margin: 1% 1% 1% 1%;
+    align-self: center;
+  }
 }

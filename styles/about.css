@@ -62,10 +62,13 @@ p {
   #aboutLeft {
     display: none;
   }
-}
-#aboutRight {
-  width: 100%;
-  margin: 1% 1% 1% 1%;
-  align-self: center;
-  min-height: calc(100vh - 100px);
+  #aboutRight {
+    width: 100%;
+    margin: 1% 1% 1% 1%;
+    align-self: center;
+    min-height: calc(100vh - 100px);
+  }
+  .aboutBoxChildImg {
+    width: 75%;
+  }
 }
