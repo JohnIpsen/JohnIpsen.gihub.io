@@ -57,3 +57,14 @@ p {
   font-size: 18px;
   font-family: Georgia;
 }
+
+@media only screen and (max-device-width: 750px) {
+  #aboutLeft {
+    display: none;
+  }
+}
+#aboutRight {
+  width: 100%;
+  margin: 1% 1% 1% 1%;
+  align-self: center;
+}

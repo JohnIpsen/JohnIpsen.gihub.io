@@ -108,3 +108,14 @@ p {
   width: auto;
   color: green;
 }
+
+@media only screen and (max-device-width: 750px) {
+  #resumeLeft {
+    display: none;
+  }
+}
+#resumeRight {
+  width: 100%;
+  margin: 1% 1% 1% 1%;
+  align-self: center;
+}
