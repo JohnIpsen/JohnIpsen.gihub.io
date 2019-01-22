@@ -50,6 +50,7 @@ p {
 }
 .cert {
   padding-left: 30%;
+  margin-right: 2%;
 }
 .vertCenter {
   display: flex;

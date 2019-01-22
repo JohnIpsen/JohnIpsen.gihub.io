@@ -64,4 +64,11 @@ footer {
   #leftTitle {
     text-align: center;
   }
+
+  p {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 26px;
+  }
 }
