@@ -29,9 +29,13 @@ header {
   float: right;
   width: 45%;
 }
-#navBtn {
+.navBtn {
   width: 25%;
   padding: 0 0.5%;
+}
+/* mobile menu */
+#menu-icon {
+  display: none;
 }
 button {
   border-radius: 8px;
@@ -70,5 +74,16 @@ footer {
   }
   h4 {
     font-size: 26px;
+  }
+  #navBar {
+    display: none;
+  }
+  #menu-icon {
+    display: initial;
+    width: 8%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin: 1% 1%;
   }
 }
