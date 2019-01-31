@@ -3,9 +3,16 @@
   <title>John Ipsen - About</title>
   <link rel="stylesheet" href="../styles/about.css" />
   <link rel="stylesheet" href="../styles/general.css" />
+  <script src="./mobileMenu.js"></script>
 </head>
 <body>
   <header>
+    <img
+      id="menu-icon"
+      src="../public/iconfinder_Menu_2190974.svg"
+      alt="mobile menu"
+      onclick="menuExpand()"
+    />
     <h1 id="leftTitle">John Ipsen</h1>
     <nav id="navBar">
       <a class="navBtn" href="../index.html"><button>Home</button></a>
@@ -13,13 +20,9 @@
       <a class="navBtn" href="resume.html"><button>Resume</button></a>
       <a class="navBtn" href="contact.html"><button>Contact</button></a>
     </nav>
-    <img
-      id="menu-icon"
-      src="../public/iconfinder_Menu_2190974.svg"
-      alt="mobile menu"
-    />
   </header>
   <div id="about">
+    <div id="mobileMenu">hello</div>
     <div id="aboutLeft">
       <img id="portrait" src="../public/john-ipsen.jpg" />
       <h4>Downloads</h4>
