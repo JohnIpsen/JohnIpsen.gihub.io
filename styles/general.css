@@ -27,11 +27,11 @@ header {
 #navBar {
   display: flex;
   float: right;
-  width: 45%;
+  width: 50%;
+  min-height: 33px;
 }
 .navBtn {
-  width: 25%;
-  padding: 0 0.5%;
+  width: 12.5vw;
 }
 /* mobile menu */
 #menu-icon {
@@ -58,11 +58,11 @@ header {
   display: none;
 }
 button {
-  border-radius: 8px;
-  background-color: white;
+  background-color: steelblue;
+  color: white;
   width: 100%;
-  border: none;
   height: 100%;
+  border: none;
 }
 button:hover {
   background-color: lightsteelblue;
