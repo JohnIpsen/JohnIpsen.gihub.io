@@ -130,6 +130,8 @@ footer {
     margin: 1% 1%;
   }
   #mobileNav {
-    position: relative;
+    position: fixed;
+    width: 60%;
+    right: 0;
   }
 }
