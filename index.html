@@ -3,10 +3,34 @@
   <title>John Ipsen</title>
   <link rel="stylesheet" href="styles/home.css" />
   <link rel="stylesheet" href="styles/general.css" />
+  <script src="./src/mobileMenu.js"></script>
 </head>
 <body>
-  <header><h1 id="homeTitle">John Ipsen</h1></header>
+  <header>
+    <h1 id="homeTitle">John Ipsen</h1>
+    <div id="menu-icon" onclick="menuExpand()">
+      <div id="bar1"></div>
+      <div id="bar2"></div>
+      <div id="bar3"></div>
+    </div>
+  </header>
   <div id="home">
+    <div class="hidden" id="mobileMenu">
+      <nav id="mobileNav">
+        <a class="mobileNavBtn" href="./index.html"
+          ><button class="current">Home</button></a
+        >
+        <a class="mobileNavBtn" href="./src/about.html"
+          ><button>About</button></a
+        >
+        <a class="mobileNavBtn" href="./src/resume.html"
+          ><button>Resume</button></a
+        >
+        <a class="mobileNavBtn" href="./src/contact.html"
+          ><button id="bottomBtn">Contact</button></a
+        >
+      </nav>
+    </div>
     <div id="homeLeft">
       <img src="./public/john-ipsen.jpg" />
       <div id="homeDownloads">

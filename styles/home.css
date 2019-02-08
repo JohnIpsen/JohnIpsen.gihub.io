@@ -48,27 +48,26 @@ h4 {
 }
 
 @media only screen and (max-device-width: 750px) {
-  #leftTitle {
-    text-align: center;
-  }
   #home {
     flex-direction: column;
   }
   #homeLeft {
     width: 100%;
     position: initial;
-    align-self: center;
+    display: flex;
+  }
+  #homeLeft img {
+    max-width: 50%;
+    height: 30vh;
   }
   #homeDownloads {
-    display: none;
+    margin-left: 1%;
+    width: 48%;
+  }
+  #homeDownloads a {
+    font-size: 28px;
   }
   #homeRight {
-    width: 100%;
-    margin: 1% 1% 1% 1%;
-    align-self: center;
-  }
-  .homeMenu {
-    height: 9.5vh;
-    border: 2px solid steelblue;
+    display: none;
   }
 }
